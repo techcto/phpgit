@@ -17,23 +17,18 @@
         }
     ],
     "require": {
-        "php": ">8.1.0",
-        "toolkit/cli-utils":"~2.0",
-        "toolkit/stdlib":"~2.0",
-        "symfony/process":"~6.0 || ~7.0",
-        "symfony/options-resolver": "~6.0 || ~7.0"
+        "php": "^8.1",
+        "toolkit/cli-utils":"*",
+        "toolkit/stdlib":"*",
+        "symfony/process":"*",
+        "symfony/options-resolver": "*"
     },
     "require-dev": {
-        "symfony/filesystem": "~6.0 || ~7.0"
+        "symfony/filesystem": "*"
     },
     "autoload": {
         "psr-4": {
             "PhpGit\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
